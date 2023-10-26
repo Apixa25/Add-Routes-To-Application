@@ -132,10 +132,6 @@ const submitDiagnostics = (submissionObj) => {
   .catch((error) => {
     console.error("error in submitting diagnostics", error)
   } )
-  console.info(
-    '⚠️ Create the logic for the fetch POST request in scripts/index.js'
-  );
-  alert('Add your logic to scripts/index.js');
 };
 
 // Function to handle when a user submits the feedback form
